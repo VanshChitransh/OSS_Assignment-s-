@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body {
+    background: radial-gradient(circle, #ff7e5f, #feb47b, #ff6347);
+    animation: aniBack 15s ease infinite;
+    color: white;
+    background-attachment: fixed;
+    background-size: 200% 200%;
+}
+@keyframes aniBack {
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0% 0%;
+    }
+} */
+
+.container{
+
+    width: 1400px;
+    margin: 20px auto;
+    columns: 4;
+    column-gap: 40px;
+}
+.container .box{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.container .box img{
+    max-width: 100%;
+    border-radius: 20px;
+}

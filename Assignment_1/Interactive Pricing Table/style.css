@@ -1,0 +1,78 @@
+body{
+    font-family: Montserrat;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px
+}
+
+.box{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 450px;
+    width: 250px;
+    border-radius: 20px;
+    color: white;
+    transition: 0.3s ease;    
+}
+.prc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+    border-color: white;
+    /* color: blueviolet; */
+    width: 120px;
+    font-weight: 900;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.206);
+}
+
+.btnn{
+    width: 200px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.493);
+    font-weight: 800;
+    translate: 5% 30%;
+}
+
+.First-Head-Button{
+    color: blueviolet;
+}
+.Second-Head-Button{
+    color: rgb(250,53,119);
+}
+.Third-Head-Button{
+    color: rgb(72,72,231);
+}
+.First-tier{
+    background-color: blueviolet;
+
+}
+
+.Second-tier{
+    background-color: rgb(250, 53, 119);
+}
+
+.Third-tier{
+    background-color: rgb(72, 72, 231);
+}
+
+.box:hover{
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.493);
+    transform: scale(1.15);
+}
