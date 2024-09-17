@@ -1,0 +1,18 @@
+.one{
+    width: 0;
+    border-bottom: 60px solid #6C6;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
+}
+
+.two{
+    width: 208px;
+    height: 120px;
+    background-color: #6C6;
+}
+.three{
+    width: 0;
+    border-top: 60px solid #6C6;
+    border-left: 104px solid transparent;
+    border-right: 104px solid transparent;
+}
